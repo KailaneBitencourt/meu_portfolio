@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="kai.png">
+    <script src="portfólio.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo"> Kailane
+        <span> Bitencourt</span>
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active"> Início </a>
+            <a href="#education"> Educação </a>
+            <a href="#projects"> Projetos </a>
+            <a href="#contact"> Contato </a>
+        </nav>  
+        <div class="dropdown">
+            <button class=".bg-black dropdown-toggle" id="cor" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg id="botaoMenu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+                </svg>
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button"> <a href="#home" class="active" id="cor"> Início </a> </button></li>
+              <li><button class="dropdown-item" type="button"> <a href="#education" class="cor"> Educação </a> </button>  </li>
+              <li><button class="dropdown-item" type="button">  <a href="#projects" class="cor"> Projetos </a> </button>  </li>
+              <li><button class="dropdown-item" type="button"> <a href="#contact" class="cor"> Contato </a></button>  </li>
+            </ul>
+          </div>
+        
+    </header>
+    <section class="inicio" id="home">
+        <div class="flex" >
+            <div class="inicio-apresentacao">
+                <p id="boas-vindas" class="animacao"> Sejam bem-vindos!! </p>
+                <p id="apresentacao"> 
+                    Meu nome é Kailane Bitencourt e concluí o ensino médio juntamente com o curso técnico de informática no IFBA.
+                    Interessada na área, decidi ampliar meus conhecimentos. Atualmente, estou no primeiro período do curso Sistemas 
+                    de Informação e busco aprimorar ainda mais meu conhecimento na área de tecnologia.
+                </p>
+                <div class="flex_">
+                    <button class="btn-1"> <a href="https://www.linkedin.com/in/kailane-bitencourt-879088292/" class="mudarCor"> Linkedin</a></button>
+                    <button class="btn-2"> <a href="#contact" class="mudarCor"> Contato </a></button>   
+                </div>
+            </div>
+            <div class="pulo">
+                <img class="foto" src="foto.jpeg" alt="minhafoto" srcset="">
+            </div>
+        </div>
+    </section>
+    <section class="educacao" id="education">
+        <p class="titulo"> Meus <span> cursos </span> </p>
+        <div class="minhaeducacao">
+            <div class="box">
+                <p class="titulo_"> Técnico em Informática - IFBA </p><br>
+                <p class="assunto"> Assuntos tratados: Python(básico),HTML e CSS, Banco de dados(MySQL - básico), Rede de Computadores e Segurança da Informação. </p>
+            </div>
+            <div class="box">
+                <p class="titulo_"> Bacharelado em Sistemas de Informação - IFBA </p><br>
+                <p class="assunto"> Primeiro semestre do curso. </p>
+            </div>
+            <div class="box">
+                <p class="titulo_"> Curso em vídeo - Gustavo Guanabara </p><br>
+                <p class="assunto"> Curso de JavaScript [40 horas] voltado para iniciantes. </p>
+            </div>
+        </div>
+        <div class="box-computador">
+             <img class="computador" src="computador.png" alt="computador" srcset="">
+        </div>
+    </section>
+    <section class="projetos" id="projects">
+        <p class="titulo"> Meus <span>Projetos</span></p>
+
+        <div class="meus-projetos">
+            <div class="div-foto">
+                <img class="imagem-projeto" src="ecofilmes.png" alt="projetofilmes" srcset="">
+                <div class="sobreposicao">
+                    <a class="link-overlay" href="https://662560a91f63a4ee7de9cf88--sunny-torrone-cd96b5.netlify.app/"> <p class="corProj">Ver Projeto</p> </a>
+                </div>
+            </div>
+            <div class="div-foto">
+                <img class="imagem-projeto" src="suap.png" alt="projetosuap" srcset="">
+                <div class="sobreposicao">
+                    <a class="link-overlay" href="https://66256db849e12ff5312d1f42--subtle-babka-8e6afe.netlify.app/"> <p class="corProj">Ver Projeto</p> </a>
+                </div>
+            </div>
+            <div class="div-foto">
+                <img class="imagem-projeto" src="calculadora.png" alt="calculadora" srcset="">
+                <div class="sobreposicao">
+                    <a class="link-overlay" href="https://662579b26fb671049a3c69fc--spectacular-madeleine-4ca220.netlify.app/"> <p class="corProj">Ver Projeto</p> </a>
+                </div>
+            </div>
+            <div class="div-foto">
+                <img class="imagem-projeto" src="hora.png" alt="verAHora" srcset="">
+                <div class="sobreposicao">
+                    <a class="link-overlay" href="https://66257c2549e12ffed42d1f42--strong-sopapillas-85f14b.netlify.app/"> <p class="corProj">Ver Projeto</p> </a>
+                </div>
+            </div>
+            <div class="div-foto">
+                <img class="imagem-projeto" src="multiplicação.png" alt="tabuada" srcset="">
+                <div class="sobreposicao">
+                    <a class="link-overlay" href="https://66257f9a1dda68f952c2c32d--vermillion-swan-284621.netlify.app/"> <p class="corProj">Ver Projeto</p> </a>
+                </div>
+            </div>
+            <div class="div-foto">
+                <img class="imagem-projeto" src="contador.png" alt="contador" srcset="">
+                <div class="sobreposicao">
+                    <a class="link-overlay" href="https://66258383edda6b03fc82e6e9--majestic-lolly-f8f108.netlify.app/"> <p class="corProj">Ver Projeto</p> </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="contato"  id="contact">
+        <p class="contato_"> Fale <span> comigo </span></p>
+        <form action="https://formsubmit.co/kailanebitencourtdossantos@gmail.com" method="POST" >
+            <div class="grupo1">
+                <div class="input-box">
+                    <input type="text" name="name" required placeholder="Seu nome">
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="message" required  id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    <input type="hidden" name="_captcha" value="false">
+
+
+                </div>        
+                <input type="submit" value="Enviar" onclick="enviar()" class="btn-2">
+            </div> 
+    </form>
+
+    </section>
+    <footer> 
+        <p> Feito por Kailane Bitencourt dos Santos © 2024 </p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
